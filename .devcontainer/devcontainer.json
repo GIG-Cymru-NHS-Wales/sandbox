@@ -1,0 +1,17 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  
+  "features": {},
+  
+  // Configure tool-specific properties.
+  "customizations": {
+        "vscode": {
+            "extensions": [
+                "bierner.markdown-mermaid"
+            ],
+            "settings": {
+                "editor.rulers": [80, 120] // Add a vertical ruler at the 80 and 120 characters
+            }
+        }
+    }
+}
